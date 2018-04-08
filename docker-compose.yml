@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  customsolution.organizer.backend:
+    image: customsolutionorganizerbackend
+    build:
+      context: .
+      dockerfile: CustomSolution.Organizer.Backend\Dockerfile
